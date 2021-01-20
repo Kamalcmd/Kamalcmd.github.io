@@ -1,0 +1,13 @@
+.header-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 99; }
+  
+.header-1{
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: var(--logo-color);
+  display: inline-block; }
