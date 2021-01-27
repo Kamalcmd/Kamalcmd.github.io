@@ -1,13 +1,21 @@
-.header-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background: #fff;
-  z-index: 99; }
-  
-.header-1{
+.brand-logo{
   font-weight: 700;
   font-size: 35px;
   line-height: 40px;
-  color: var(--logo-color);
-  display: inline-block; }
+  color: #404040;
+}
+
+@media(max-width:800px){
+  .brand-logo{
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media(max-width: 600px){
+  font-size: 30px;
+  line-height: 35px;
+}
+
+
+
