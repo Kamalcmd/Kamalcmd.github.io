@@ -7,4 +7,4 @@ Following are to be considered while cloning this website:
 1. You can start from index page.
 2. Css, image, js are located on Assets directories making there corresponding folders.
 3. This website is designed from mobile first approach.
-3. There are 3 media queries of min-width of 1550px, max-width of 1024px, and max-width of 768px.
+4. There are 3 media queries of min-width of 1550px, max-width of 1024px, and max-width of 768px.
