@@ -7,7 +7,7 @@
   display:flex;
   flex-flow:row wrap;
   text-align:center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .wrapper>*{
@@ -112,11 +112,33 @@ color:aliceblue;
   transition: 0.3s all;
   text-transform: uppercase ;
 }
+.main-title-head{
+  max-width: 700px;
+  margin: 10px auto 5px;
+  padding: 1rem;
+  
+}
+.text-center{
+  text-align: center;
+}
+.text-primary{
+  color: red;
+  padding: 0.75em;
+}
+.header-name h3{
+ font-family: sans-serif;
+ font-weight: 600;
+}
+.para{
+  font-family: sans-serif;
+  font-size: 25px;
+}
 .main{
   text-align:left;
   background: deepskyblue;
-  height:300px;
+  height:auto;
   font-size: 24px;
+text-justify: auto;
   
 }
 .aside1{
@@ -290,6 +312,7 @@ h2{
     text-transform: uppercase ;
     cursor: pointer;
   }
+  
   .main{
     flex: 3;
   }
@@ -318,12 +341,9 @@ h2{
   to{
     opacity:1;
     transform: translateX(0px);
-  }
-  
-
+  }}
 .toggle .line1{
   transform: rotate(-45deg) translate(-5px, 6px);
-
 }
 .toggle .line2{
   opacity: 0;
@@ -331,6 +351,7 @@ h2{
 .toggle .line3{
   transform: rotate(45deg) translate(-5px, -6px);
 }
+
 
   
     
