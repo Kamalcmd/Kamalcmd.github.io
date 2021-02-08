@@ -177,6 +177,7 @@ footer{
   padding:50px;
   color: #fff;
   background-color: #131419;  
+  border-radius: 10px;
 }
 .footer>*{
   flex:1 100%;
@@ -279,16 +280,16 @@ h2{
   .nav-links{
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
+    height: 38.5vh;
+    top: 10vh;
     background-color:#f5c6cb;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45%;
+    width: 40%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    opacity: 0.80;
+    opacity: 0.95;
   }
   .nav-links li{
     opacity: 1;
