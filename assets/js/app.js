@@ -1,3 +1,5 @@
+
+window.alert("This website is under constructions");
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -12,7 +14,7 @@ const navSlide = () => {
             if (link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = `navLinkFade 0.5s ease forward ${index / 7 + 0.3}s`;
+                link.style.animation = `navLinkFade 0.7s ease forward ${index / 5 + 0.3}s`;
             }
         });
         //Burger Animation
