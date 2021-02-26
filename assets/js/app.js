@@ -1,5 +1,5 @@
 
-// window.alert("This website is under constructions");
+window.alert("This website is under constructions");
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
