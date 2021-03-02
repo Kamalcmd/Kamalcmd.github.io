@@ -1,8 +1,12 @@
 
+<<<<<<< HEAD
 
 
 
 //window.alert("This website is under constructions");
+=======
+window.alert("This website is under constructions");
+>>>>>>> a9d46468bad044b294c689d76576fb43ccfe3df3
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -27,6 +31,7 @@ const navSlide = () => {
 
 }
 navSlide();
+<<<<<<< HEAD
 
 var modalBtn = document.querySelectorAll('.modal-btn');
 var modal = document.querySelectorAll('.modal-content');
@@ -50,3 +55,5 @@ modalClose.addEventListener('click', function(){
 
 
 
+=======
+>>>>>>> a9d46468bad044b294c689d76576fb43ccfe3df3
