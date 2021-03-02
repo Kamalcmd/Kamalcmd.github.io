@@ -1,5 +1,8 @@
 
-window.alert("This website is under constructions");
+
+
+
+//window.alert("This website is under constructions");
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -24,3 +27,26 @@ const navSlide = () => {
 
 }
 navSlide();
+
+var modalBtn = document.querySelectorAll('.modal-btn');
+var modal = document.querySelectorAll('.modal-content');
+var modalClose = document.querySelector('.modal-close');
+
+modalBtn.addEventListener('click', function(){
+    modal.classList.add('modal-active');
+});
+
+modalClose.addEventListener('click', function(){
+    modal.classList.remove('modal-active');
+});
+
+
+
+
+
+
+
+
+
+
+
