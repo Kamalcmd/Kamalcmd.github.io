@@ -1,4 +1,4 @@
-window.alert("This website is under constructions");
+//window.alert("This website is under constructions");
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -24,17 +24,22 @@ const navSlide = () => {
 }
 navSlide();
 
-var modalBtn = document.querySelectorAll('.modal-btn');
-var modal = document.querySelectorAll('.modal-content');
-var modalClose = document.querySelector('.modal-close');
+const modalBtn = document.getElementById('modal-btn');
+const modal = document.getElementById('modal-contact');
+const modalClose = document.querySelector('.modal-close');
+console.log(modalBtn);
 
-modalBtn.addEventListener('click', function(){
+modalBtn.addEventListener('click', (event) => {
+    event.preventDefault();
     modal.classList.add('modal-active');
+    console.log("hello");
+    
 });
 
-modalClose.addEventListener('click', function(){
-    modal.classList.remove('modal-active');
-});
+
+modalClose.addEventListener('click', () => {
+        modal.classList.remove('modal-active');
+    });
 
 
 
