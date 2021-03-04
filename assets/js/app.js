@@ -30,8 +30,9 @@ const modalClose = document.querySelector('.modal-close');
 console.log(modalBtn);
 
 modalBtn.addEventListener('click', (event) => {
-    // event.preventDefault();
+    event.preventDefault();
     modal.classList.add('modal-active');
+    console.log('hello world');
 });
 
 

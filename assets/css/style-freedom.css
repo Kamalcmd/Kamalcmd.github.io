@@ -54,15 +54,18 @@ color:aliceblue;
   display: flex; 
   justify-content: space-around;
   width: 30%;
+  
 }
 
 .nav-links li, a{
+  position: relative;
   color:aliceblue;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight:  bold;
   font-size: 14px;
   list-style: none;
+  z-index: 1;
 }
 .burger{
   display:none;
@@ -344,6 +347,11 @@ h2{
 
 }
 
+@media screen and (max-width:1176px){
+  .nav-links{
+    width: 65%;
+  }}
+
 
 @media screen and (max-width:1024px){
   .nav-links{
@@ -419,6 +427,18 @@ h2{
     outline: none;
     cursor: pointer; 
     align-items: center;
+    }
+    .intro{
+      align-items: center;
+      font-size: 35px;
+      font-family: monospace;
+      padding-left: 1em;
+    } 
+    .description{
+      padding-left: 2.5em;
+      align-items: center;
+      font-size: 25;
+      font-family: monospace;
     }
 
   .header-name{
