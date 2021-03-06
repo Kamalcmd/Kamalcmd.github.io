@@ -40,7 +40,7 @@ justify-content: space-around;
 align-items: center;
 font-family: sans-serif;
 min-height: 12vh;
-background-color: #5d4946;
+background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 
 .logo{
@@ -114,7 +114,7 @@ color:aliceblue;
   height: 100%;
   top:0;
   left:0;
-  background-color: #5d4946;
+  background:linear-gradient(to right top, #65dfc9, #6cdbeb);
   display:none;
   justify-content: center;
   align-items: center;
@@ -143,13 +143,12 @@ position: absolute;
 
 .modal-btn{
   padding:10px 30px;
-  background-color: #2980b9;
+  background-color: #57cab5;
   color: white;
   border: none;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   position: relative;
-  
 }
 /* button {
   z-index: 5;
@@ -227,10 +226,10 @@ text-justify: auto;
   
 }
 .aside1{
-  background: #665855;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 .aside2{
-  background: #665855 ;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb); 
 }
 
 .img-responsive{
@@ -378,11 +377,11 @@ h2{
     right: 0px;
     height: 38.5vh;
     top: 10vh;
-    background-color:#5d4946;
+    background:linear-gradient(to right top, #65dfc9, #6cdbeb);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 35%;
     transform: translateX(100%); 
     transition: transform 0.5s ease-in;
     opacity: 0.95;
@@ -430,15 +429,24 @@ h2{
     }
     .intro{
       align-items: center;
-      font-size: 35px;
+      font-size: 30px;
       font-family: monospace;
       padding-left: 1em;
     } 
     .description{
       padding-left: 2.5em;
       align-items: center;
-      font-size: 25;
+      font-size: 15px;
       font-family: monospace;
+    }
+    .modal-btn{
+      padding:10px 15px;
+      background-color: #57cab5;
+      color: white;
+      border: none;
+      font-family: 'Montserrat', sans-serif;
+      cursor: pointer;
+      position: relative;
     }
 
   .header-name{
