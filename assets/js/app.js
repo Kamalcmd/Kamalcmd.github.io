@@ -41,11 +41,18 @@ modalClose.addEventListener('click', () => {
 
 
 
+const modalBtn1 = document.getElementById('modal-btn-work');
+const modal1 = document.getElementById('modal-contact');
+const modalClose1 = document.querySelector('.modal-close');
+// console.log(modalBtn);
+
+modalBtn1.addEventListener('click', (event) => {
+    event.preventDefault();
+    modal1.classList.add('modal-active');
+});
 
 
-
-
-
-
-
+modalClose1.addEventListener('click', () => {
+        modal1.classList.remove('modal-active');
+    });
 
