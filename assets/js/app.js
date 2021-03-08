@@ -23,24 +23,6 @@ const navSlide = () => {
 
 }
 navSlide();
-
-const modalBtn = document.getElementById('modal-btn');
-const modal = document.getElementById('modal-contact');
-const modalClose = document.querySelector('.modal-close');
-console.log(modalBtn);
-
-modalBtn.addEventListener('click', (event) => {
-    event.preventDefault();
-    modal.classList.add('modal-active');
-});
-
-
-modalClose.addEventListener('click', () => {
-        modal.classList.remove('modal-active');
-    });
-
-
-
 const modalBtn1 = document.getElementById('modal-btn-work');
 const modal1 = document.getElementById('modal-contact');
 const modalClose1 = document.querySelector('.modal-close');

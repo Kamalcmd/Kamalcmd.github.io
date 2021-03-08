@@ -37,12 +37,17 @@ div{
 }
 
 nav{
+  
+  position:fixed;
 display: flex;
 justify-content: space-around;
 align-items: center;
 font-family: sans-serif;
 min-height: 12vh;
 background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+width: 100%;
+z-index: 12;
+
 }
 
 .logo{
@@ -83,8 +88,8 @@ color:aliceblue;
   
 }
 .banner{
-  /* z-index: -10; 
-  position: relative;  */
+  /* z-index: -10; */
+  /* position: relative;   */
   height: 500px;
   overflow: hidden;
   background: url(../images/b1.jpg) no-repeat center;
@@ -93,7 +98,7 @@ color:aliceblue;
 
 .banner-container{
   position: absolute;
-  top:45%;
+  top:30%;
   left:30%;
   right:10%;
   display: block;
@@ -109,7 +114,7 @@ color:aliceblue;
   font-family: monospace;
 } 
 
-/* Hire me button */
+/* Do you like my work Button */
 .modal{
   position: fixed;
   width: 100%;
@@ -333,6 +338,7 @@ h2{
 /* contact page */
 
 .glass{
+  
   min-height:100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
@@ -340,6 +346,7 @@ h2{
   justify-content: center;
 }
 .main-glass{
+  height: 20px;
   display:flex;
   background: white;
   min-height: 80vh;
@@ -536,7 +543,7 @@ line-height: 10px;
   
   .banner{
     /* z-index: -5; */
-    height: 320px; 
+    height: 400px; 
     background-size: cover;
   }
   .banner-container{
