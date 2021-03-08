@@ -26,7 +26,9 @@ body
   margin:0px 2px 2px 2px;
   border-radius: 1px;
   background-color: #FCFAFA;
+  
   }
+  
   .btn{
     cursor: pointer;
   }
@@ -328,7 +330,129 @@ h2{
   padding: 10px 12px;
   font-size:20px;
 }
+/* contact page */
 
+.glass{
+  min-height:100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-glass{
+  display:flex;
+  background: white;
+  min-height: 80vh;
+  width: 80%;
+  background: linear-gradient(to right bottom,
+   rgba(255,255,255,0.7),
+   rgba(255,255,255,0.3)
+   );
+   border-radius: 2rem;
+   z-index: 1;
+   backdrop-filter:blur(2rem);
+}
+.circle1, .circle2{
+  background: white;
+  background: linear-gradient(to right bottom,
+   rgba(255,255,255,1),
+   rgba(255,255,255,0.5)
+   );
+   height: 10rem;
+   width: 10rem;
+   position: absolute;
+   border-radius: 50%;
+   
+}
+
+.circle1{
+  top: 20%;
+  right: 8%
+}
+.circle2{
+  bottom: -12%;
+  left:5%
+}
+/* dashboard */
+.dashbord{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: white;
+  background: linear-gradient(to right bottom,
+   rgba(255,255,255,0.7),
+   rgba(255,255,255,0.3)
+   );
+   border-radius: 2rem;
+   width: 80%;
+}
+.profile h3{
+  font-family: sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+line-height: 10px;
+}
+.dashboard-link{
+  width: 80%;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+   border-radius: 2rem;
+   align-items: left;
+   padding-bottom: 10px;
+   margin: 10px;
+
+}
+
+.das-link{
+  display:flex;
+  margin: 1rem 0rem; 
+  padding:0rem 5rem;
+  align-items: left;
+}
+.das-link h2{
+  padding: 0rem 2rem;
+
+}
+.data{
+  padding-left: 10px;
+}
+
+.resume-main{
+  flex:3;
+}
+
+
+/* dashboard skills */
+.pro{
+  width: 80%;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+   border-radius: 2rem;
+   top: 30%;
+   margin-bottom: 10px;
+}
+.skill_name {
+  width: 25%;
+}
+.skill_per {
+  width: 15%;
+}
+.skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.skill_progress span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
 
 
 @media screen and (min-width:1550px){
@@ -395,9 +519,10 @@ h2{
     flex-direction: column;
     align-items: center;
     width: 35%;
-    transform: translateX(100%); 
+    transform: translateY(-130%); 
     transition: transform 0.5s ease-in;
     opacity: 0.95;
+    z-index: 10;
   }
   .nav-links li{
     opacity: 1;
@@ -501,6 +626,7 @@ h2{
     padding: 5px;
 
     /* contact form */
+   
 }
 
 
