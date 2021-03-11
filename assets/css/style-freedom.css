@@ -346,11 +346,12 @@ h2{
   justify-content: center;
 }
 .main-glass{
+  margin-top: 60px;
   height: 20px;
   display:flex;
   background: white;
   min-height: 80vh;
-  width: 80%;
+  width: 90%;
   background: linear-gradient(to right bottom,
    rgba(255,255,255,0.7),
    rgba(255,255,255,0.3)
@@ -428,8 +429,17 @@ line-height: 10px;
 
 .resume-main{
   flex:3;
+  margin-left: 50px;
 }
-
+.resume-main .status{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+}
+.input-status{
+  border-radius: 10rem;
+  border:white;
+}
 
 /* dashboard skills */
 .pro{
@@ -461,6 +471,33 @@ line-height: 10px;
   background: #fff;
 }
 
+/* resume Main content */
+.resume_work{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: white;
+  background: linear-gradient(to right bottom,
+   rgba(255,255,255,0.9),
+   rgba(255,255,255,0.5)
+   );
+   border-radius: 2rem;
+   width: 99%;
+}
+.info-about{
+  padding: 30px;
+  width: 80%;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+   border-radius: 2rem;
+   top: 30%;
+   margin-bottom: 10px;
+
+}
 
 @media screen and (min-width:1550px){
 .nav-links{
