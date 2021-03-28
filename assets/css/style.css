@@ -465,216 +465,42 @@ h2{
 }
 
 /* Other pages common portion */
-.kam-resume .resume-myresume {
-  padding: 70px 0px; 
+.glass{
+  position: relative;
+  min-height: 100vh;
+  background:var(--secondary);
+  display:flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  height:100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.main-titles-head {
-  margin: 0px auto 40px; 
-} 
-.main-titles-head span {
-  font-size: 17px;
-  line-height: 25px; 
-}
-
-.conatiner{
-  width: 100%;
-  padding-right: 60px;
-  padding-left: 60px;
-  margin-right: 60px;
-  margin-left: 60px; 
-}
-h3.header-name {
-  font-size: 35px;
-  line-height: 45px; 
+.grid-info{
+  display:grid;
+  height:100%;
+  padding: 15px;
+  grid-template-columns: 1fr ;
+  justify-content: center;
 }
 
-p.para {
-  font-size: 17px;
-  line-height: 28px;
-  color: var(--para-color); }
-  
-  .my-profile {
-    display: flex;
-    grid-template-columns: auto 1fr;
-    grid-gap: 35px;
-    margin: 0px 0px 30px;
-    align-items: center; 
-  }
- 
-  .my-details h6 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 30px;
-    color: var(--para-color); 
-  }
+.grid-item{
+  padding: 20px;
+}
+.grid-hobby{
+  display:grid;
+  height:100%;
+  padding:15px;
+  grid-template-columns:1fr;
+  grid-template-rows: 1fr;
+  column-gap: 1rem;
+  justify-content: center;
+}
 
-  .row {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
- 
-  .kam-resume .my-bio h5 {
-    font-size: 25px;
-    color: var(--header-title-color);
-    font-weight: 600;
-    margin: 0px 0px 15px; 
-  }
-  .my-edcation span {
-    font-size: 15px;
-    line-height: 25px;
-    color: #f5637c;
-    margin-bottom: 5px;
-    display: inline-block; 
-  }
-  .my-edcation h4 {
-    color: var(--title-color);
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 500;
-    margin-bottom: 10px; 
-  }
-  .my-edcation {
-    border-bottom: 1px solid #999;
-    padding-bottom: 10px;
-    margin-bottom: 25px; 
-  }
-  .my-edcation:nth-child(4) {
-      margin: 0px; 
-    }
-    .col-lg-6 {
-      flex: 0 0 50%;
-      max-width: 50%; 
-      flex-direction: column;
-    }
-    
-    .col-md-6 {
-      flex: 0 0 50%;
-      max-width: 50%; 
-    }
-      .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
-      .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
-      .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-      .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
-      .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
-      .col-xl-auto {
-        position: relative;
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px; 
-      }
-      
-      .mt-md-5,
-      .my-md-5 {
-        margin-top: 3rem !important; }
-      .mt-4,
-      .my-4 {
-        margin-top: 1.5rem !important; } 
-
-        .container{
-          width:100%;
-          padding-left: 15px;
-          padding-right: 15px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .my-pic {
-          border: 2px solid #f5637c;
-          border-radius: 100px;
-          max-width: 100px; 
-        }
-        .my-pic img {
-          border-radius: 100%;
-          padding: 7px; 
-        }
-        .img-fluid {
-          max-width: 100%;
-          height: auto; 
-        }
-        .my-profile {
-          display: grid;
-          grid-template-columns: auto 1fr;
-          grid-gap: 35px;
-          margin: 0px 0px 30px;
-          align-items: center; 
-        }
-
-        .kam-resume .details-details ul li a {
-          font-size: 17px;
-          line-height: 28px;
-          color: var(--para-color); 
-        }
-
-        .kam-resume .details-details ul {
-          display: grid;
-          grid-template-columns: 1fr 1fr; 
-        }
-        .kam-resume .details-details {
-          margin: 20px 0px 0px; 
-        }
-        .kam-resume .details-details ul li,
-        .kam-resume .my-bar-grids {
-          margin: 0px 0px 15px; 
-        }
-       
-        .kam-resume .details-details ul li strong {
-          font-size: 19px;
-          line-height: 25px;
-          color: var(--title-color);
-          font-weight: 600; 
-        }
-
-        
-        .kam-resume .my-bar-grids h4 span {
-          float: right;
-          font-size: 0.9em;
-          font-weight: 600; 
-        }
-        .kam-resume .my-bar-grids h4 {
-          font-size: 17px;
-          line-height: 25px;
-          color: var(--title-color);
-          margin-bottom: 10px;
-          text-transform: capitalize; 
-        }
-        .progress {
-          display: flex;
-          height: 1rem;
-          overflow: hidden;
-          font-size: 0.75rem;
-          background-color: #e9ecef;
-          border-radius: 0.25rem; 
-        }
-
-        .progress-bar {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          overflow: hidden;
-          color: #fff;
-          text-align: center;
-          white-space: nowrap;
-          background-color: #f5637c;
-          transition: width 0.6s ease; 
-        }
-        
-        .bg-color {
-          background: #f5637c; 
-        }
-        .progress-bar-striped {
-          background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-          background-size: 1rem 1rem; 
-        }
-
-        
-       
-
-
-
-    
+.service-three{
+  padding:20px;
+}
 
 /* larger tablets & laptops Style */
 @media screen and (min-width:768px){
@@ -773,22 +599,20 @@ p.para {
       .main{
         flex:1;
       }
-     
-      .glass{
-          position: relative;
-          min-height: 100vh;
-          background:var(--secondary);
-          display:flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center; 
-          height:100%;
-          padding-right: 15px;
-          padding-left: 15px;
+      .container{
+        top:100px;
+        width:90%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 100px;
+        margin-top: 100px;
+        
       }
+     
+     
       .kam-resume .my-bio:nth-child(2) {
         margin-top: 20px; } 
-      }
+      
       .row {
         display: flex;
         flex-wrap: wrap;
@@ -796,15 +620,38 @@ p.para {
         margin-right: -15px;
         margin-left: -15px;
       }
+
+      .grid-info{
+        display:grid;
+        height:100%;
+        padding: 15px;
+        grid-template-columns: 1fr 1fr ;
+      }
       
-       
-     
+      .grid-item{
+        padding: 20px;
+        
+      }
+      .grid-hobby{
+        display:grid;
+        height:100%;
+        padding:15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+      }
+      
+      .service-three{
+        padding:20px;
+      }
+      
+      .modal-btn{
+        position: relative;
+      }
 
 }
 
 /* Desktop Styles  */
 @media screen and(min-width:1200px){
-  
     .logo{
       color:aliceblue;
         text-transform: uppercases;
@@ -868,14 +715,20 @@ p.para {
       }
       
       .container{
+        width:60%;
         padding-left: 15px;
         padding-right: 15px;
+        padding-top: 100px;
         
+      }
+      .main-title-head{
+        padding-top: 100px;
       }
       
       .info-about{
         display:flex;
         justify-content: left;
+        justify-content: center;
       }
 
       
@@ -887,7 +740,19 @@ p.para {
         margin: 0px 0px 30px;
         align-items: center; 
       }
+      .grid-hobby{
+        display:grid;
+        height:100%;
+        padding:15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+      }
       
+      .service-three{
+        padding:20px;
+        border: 10px solid red;
+      }
       
 }
 

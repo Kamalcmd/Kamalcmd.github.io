@@ -38,3 +38,6 @@ modalClose1.addEventListener('click', () => {
         modal1.classList.remove('modal-active');
     });
 
+
+
+
