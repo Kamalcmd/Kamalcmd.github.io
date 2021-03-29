@@ -378,14 +378,17 @@ nav{
       
 
       .img-responsive{
+        
         position: relative;
         align-items: center;
         justify-content: center;
-        width: 96%;
-        min-height: auto;
+        width: 80%;
+
+        
+        /* max-height: 300px; */
         border-radius: 1rem;
         padding-top: 10px;
-        padding-right: 30px;
+        padding-right: 10px;
         
     }
       
@@ -922,11 +925,11 @@ align-items: center;}
 
       
 
-}
+} 
 
 /* Desktop Styles  */
-
-@media screen and(min-width:1200px){
+@media screen and (max-width:1200px){
+ /* @media screen and(min-width:1200px){  */
     .logo{
       color:aliceblue;
         text-transform: uppercases;
@@ -1020,9 +1023,22 @@ align-items: center;}
         padding:20px;
         
       }
+      .portfolio-grid{
+        display: grid;
+        height:fit-content;
+        padding:15px;
+        grid-template-columns:1fr 1fr 1fr ;
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+      }
       
       
-}
+} */
+
 
 
 
