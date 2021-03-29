@@ -79,6 +79,6 @@ if(message.length <=140){
     error_message.innerHTML = text;
     return false;
 }
-alert("Form submitter Successfully");
+alert("Form submited Successfully");
    return true;
 }

@@ -681,6 +681,7 @@ align-items: center;}
 .container-form textarea{
   height:80px;
   resize:none;
+  color: #131419;
 }
 
 .container-form #error_message{
