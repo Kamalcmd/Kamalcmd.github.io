@@ -142,7 +142,9 @@ body{
               color: #f5637c;
               border: 2px solid #f5637c; }
 
-  
+  img{
+      justify-content: center;
+  }
 
 /* Fonts */
 /* Mobile styles */
@@ -353,6 +355,7 @@ nav{
       }
       .aside2{
         order: 2;
+        justify-content: center;
       }
       .main{
         order:1;
@@ -370,11 +373,15 @@ nav{
       }
 
       .img-responsive{
-        float: left;
-        width: 100%;
-        min-height: 300px;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 96%;
+        min-height: auto;
         border-radius: 1rem;
         padding-top: 10px;
+        padding-right: 30px;
+        
     }
       
 /* Footer */
@@ -500,7 +507,34 @@ h2{
 
 .service-three{
   padding:20px;
+
 }
+
+.portfolio-grid{
+  display: grid;
+  height:fit-content;
+  padding:15px;
+  grid-template-columns:1fr ;
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  position: relative;
+  border: 2px solid #dcdcdc;
+  padding: 10px 10px;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  border-radius: 5px; 
+align-items: center;}
+  .product:hover {
+    border: 2px solid #f5637c; }
 
 /* larger tablets & laptops Style */
 @media screen and (min-width:768px){
@@ -648,9 +682,36 @@ h2{
         position: relative;
       }
 
+      .portfolio-grid{
+        display: grid;
+        height:auto;
+        padding:15px;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .img-responsive{
+        float: left;
+        width: 96%;
+        min-height: auto;
+        border-radius: 1rem;
+        padding-top: 10px;
+        padding-left: 10px;
+        
+        
+    }
+
+      
+
 }
 
 /* Desktop Styles  */
+
 @media screen and(min-width:1200px){
     .logo{
       color:aliceblue;
@@ -715,9 +776,9 @@ h2{
       }
       
       .container{
-        width:60%;
-        padding-left: 15px;
-        padding-right: 15px;
+        width:40%;
+        padding-left: 60px;
+        padding-right: 60px;
         padding-top: 100px;
         
       }
@@ -753,6 +814,7 @@ h2{
         padding:20px;
         border: 10px solid red;
       }
+      
       
 }
 
