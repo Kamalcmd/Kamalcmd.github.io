@@ -514,6 +514,13 @@ h2{
   justify-content: center;
    
 }
+.grid-hobby div{
+  background:#eee;
+  padding:1em;
+}
+.grid-hobby div:nth-child(odd){
+  background:#ddd;
+}
 
 .service-three{
   padding:20px;
@@ -703,7 +710,10 @@ align-items: center;}
 
                       /* larger tablets & laptops Style */
 
-@media screen and (min-width:768px){
+/* @media screen and (min-width:768px){ */
+  @media screen and (max-width:1200px) and (min-width:768px) {
+    
+  
   nav{
     position:fixed; 
     display:flex;
@@ -835,13 +845,7 @@ align-items: center;}
         grid-template-rows: 1fr 1fr;
         row-gap: 1rem;
       }
-      .grid-hobby div{
-        background:#eee;
-        padding:1em;
-      }
-      .grid-hobby div:nth-child(odd){
-        background:#ddd;
-      }
+      
       
       .service-three{
         padding:20px;
@@ -928,28 +932,58 @@ align-items: center;}
 } 
 
 /* Desktop Styles  */
-@media screen and (max-width:1200px){
- /* @media screen and(min-width:1200px){  */
+@media screen and (min-width:1200px){
+ 
+  nav{
+    position:fixed; 
+    display:flex;
+    height:auto;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    min-height: 12vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    width: 100%;
+    z-index: 12;
+  }
     .logo{
-      color:aliceblue;
+        position: relative;
+        color:aliceblue;
         text-transform: uppercases;
         letter-spacing: 5px;
-        font-size: 50px;
+        font-size: 30px;
+        left:1%;
         margin: 0px;
         padding:0px;
       }
-      
       .burger{
         display:none;
       } 
+
       .nav-links{
-        align-items: center;
+        position: relative;
         display: flex; 
-        position:relative;
+        flex-direction: row;
         justify-content: space-around;
-        width: 60%; 
+        align-items: center;
+        width: 40%; 
+        top:1vh;
+        height: 20vh;
+        transform: translateY(0); 
+        transition: transform 0.5s ease-in;
         background: none;
       }
+      .nav-links li, a{
+        position: relative;
+        color:aliceblue;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 15px;
+        width: 20%;
+        right:3em;
+      }
+   
       .banner-container{
         position: relative;
         top:50%;
@@ -1037,7 +1071,7 @@ align-items: center;}
       }
       
       
-} */
+} 
 
 
 
