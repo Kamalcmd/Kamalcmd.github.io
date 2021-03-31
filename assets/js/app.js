@@ -59,7 +59,7 @@ function validation(){
    }
 
    if(subject.length <10){
-    text = "Please Enter Valid Subject";
+    text = "Please Enter Valid Subject more the 10 Character";
     error_message.innerHTML = text;
     return false;
 }

@@ -879,22 +879,16 @@ align-items: center;}
 
       }
       .img-responsive{
-        float: left;
+        float:right;
         width: 96%;
         min-height: auto;
         border-radius: 1rem;
         padding-top: 10px;
         padding-left: 10px; 
+        left:50px;
     }
+    
 
-    /* .container{
-      width:80%;
-      padding-left: 60px;
-      padding-right: 60px;
-      padding-top: 100px;
-      align-items: center;
-      
-    } */
 
     .my-profile {
       grid-template-columns: 1fr 6fr;
