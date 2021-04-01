@@ -36,7 +36,7 @@ JavaScript Feature #3
 
 
 
-You can directly visit this website from github pages www.https://kamalcmd.github.io/index.html
+You can directly visit this website from github pages https://kamalcmd.github.io/
                         OR
 Following are to be considered while cloning this website:
 1. You can start from index page.
