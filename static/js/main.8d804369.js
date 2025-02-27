@@ -12347,7 +12347,7 @@
                             children: [dr.web, " web"]
                         }), (0, mt.jsxs)("p", {
                             className: "programming-icons",
-                            children: [dr.graphql, dr.mysql, dr.php, dr.mongodb, dr.nodejs, dr.react, dr.angular]
+                            children: [dr.graphql, dr.mysql, dr.php, dr.mongodb, dr.nodejs, dr.react]
                         })]
                     })
                 }, {
