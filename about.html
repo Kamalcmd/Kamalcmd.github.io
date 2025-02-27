@@ -1,216 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Kamal | About </title>
-
-    <link rel="stylesheet" href="static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ba02f56bde.js" crossorigin="anonymous"></script>
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP Signature Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f4;
+        }
+        svg {
+            width: 500px;
+            height: 200px;
+        }
+        path {
+            fill: none;
+            stroke: black;
+            stroke-width: 2;
+            stroke-dasharray: 500;
+            stroke-dashoffset: 500;
+        }
+    </style>
+</head>
 <body>
 
-  <div>
-        <Nav>
-          <div class="logo">
-            <a href="index.html" class="logo"><h3>Kamal Ghimire</h3></a>
-          </div>
-          <ul class="nav-links">
-          <li>
-            <a href="index.html" >Home</a>
-          </li>
-          <li>
-            <a href="about.html" >About</a>
-          </li>
-          <li>
-            <a href="portfolio.html" >Portfolio</a>
-          </li>
-          <li>
-            <a href="resume.html" >Resume</a>
-          </li>
-          <li>
-            <a href="contact.html" >Contact</a></li>
-          
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-  </Nav>
-  </div>
-  <main>
+<svg viewBox="0 0 500 200">
+    <path id="signaturePath" d="M20,100 C50,50 150,50 180,100 S300,150 350,100" />
+</svg>
 
-  <script src="static/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+    gsap.to("#signaturePath", {
+        strokeDashoffset: 0,
+        duration: 3,
+        ease: "power2.out"
+    });
+</script>
 
-
-  <section class="glass">
-
-    <div class="container">
-      <div class="main-titles-head text-center">
-          <span class="text-primary">My Hobbies</span>
-
-          <h3 class="header-name">
-           Something Interesting
-          </h3>
-          <p    >Amet consectetur adipisicing elit. Repell endus veniam, quaerat quasi in vel
-              exerci tationem cum consequatur accusamus. Maxime quibusdam explicabo assumenda veniam velit.
-          </p>
-      </div>
-  <div class="grid-info">
-    <div class="grid-item item-1">
-      <h3>Kamal Ghimire</h3>
-   						<p >Mollitia placeat modi explicabo voluptatum corporis unde? Dicta, provident!
-   							Rem adipisci Mollitia placeat modi explicabo voluptatum corporis unde? Dicta, provident!
-                 Rem adipisci</p>
-                 <br>
-							   <div >
-                               <p   ><span>Name :</span>Kamal Ghimire</p>
-                               <p   ><span>Age : </span>25</p>
-   						<p   ><span>Position : </span>UI/Ux Designer</p>
-   						<p   ><span>Phone : </span>   +11-0125 364
-   								28
-   						</p>
-   						<p   ><span>Email : </span>
-                            kamalghimire121@gmail.com</p>
-   						<p   ><span>Website : </span>https://kamalcmd.github.io/ </p>
-   						<p   ><span>Follow : </span><a href="#page"><span class="fa fa-facebook-official icons" aria-hidden="true"></span></a>
-   							<a href="#page"><span class="fa fa-instagram icons" aria-hidden="true"></span></a>
-   							<a href="#page"><span class="fa fa-twitter-square icons" aria-hidden="true"></span></a></p>
-						</div> 
-    </div>
-    <div class="grid-info">
-      <div class="grid-item item-2">
-        <img src="static/images/profile.png" alt="pic" class="img-responsive ">
-   					
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-hobby ">
-    
-      <div class="service-three item11 product">
-        <h3>Music</h3>
-   				                    <p    >Sit amet consectetur adipisicing elit. Doloremque repudiandae nemo earum
-   				                        nostrum
-   				                        veniam sed eligendi est,
-   				                                alias Sit amet consectetur adipisicing</p>
-   				                
-    </div>
-    <div class="service-three item11 product">
-      <h3>Travelling</h3>
-
-   				                    <p    >Sit amet consectetur adipisicing elit. Doloremque repudiandae nemo earum
-   				                        nostrum
-   				                        veniam sed eligendi est,
-   				                        alias Sit amet consectetur adipisicing</p>
-   				                
-  </div>
-  <div class="service-three item11 product">
-    <h3>Coding</h3>
-
-   				                    <p    >Sit amet consectetur adipisicing elit. Doloremque repudiandae nemo earum
-   				                        nostrum
-   				                        veniam sed eligendi est,
-   				                        alias Sit amet consectetur adipisicing</p>
-   				                
-</div>
-<div class="service-three item11 product">
-  <h3>Research</h3>
-
-   				                    <p    >Sit amet consectetur adipisicing elit. Doloremque repudiandae nemo earum
-   				                        nostrum
-   				                        veniam sed eligendi est,
-   				                        alias Sit amet consectetur adipisicing</p>
-   				                
-</div>
-<div class="service-three item11 product">
-  <h3>Reading</h3>
-
-   				                    <p    >Sit amet consectetur adipisicing elit. Doloremque repudiandae nemo earum
-   				                        nostrum
-   				                        veniam sed eligendi est,
-   				                        alias Sit amet consectetur adipisicing</p>
-   				                
-</div>
-<div class="service-three item11 product">
-  <h3>Photography</h3>
-
-   				                    <p    >Sit amet consectetur adipisicing elit. Doloremque repudiandae nemo earum
-   				                        nostrum
-   				                        veniam sed eligendi est,
-   				                        alias Sit amet consectetur adipisicing</p>
-   				                
-</div>
-
-  </div>
-  <div >
-    <a href="#" class="modal-btn">Read More</a>
-  </div>
-
-    </section> 
-
-  
-    
-
-     
-
-    
-    
-    <section>
-      <footer class="footer">
-        <div class="footer-left">
-          <div class="footer-logo">
-            <h3>Kamal Ghimire</h3>
-            <p>You learn, you gain.You Share, you explored..</p>
-          </div>
-      
-          <div class="socials">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-twitter-square"></i></a>
-            <a href="#"><i class="fab fa-dribbble-square"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram-square"></i></a>
-            <a href="#"><i class="fab fa-github-square"></i></a>
-    
-          </div>
-        </div>
-        <ul class="footer-right">
-          <li>
-            <a href="#"><h2>Useful Links</h2></a>
-            <ul class="box">
-              <li><a href="#">Blog</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="portfolio.html">Timeline</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="about.html">About</a></li>
-             </ul>
-          </li>
-          <li class="features">
-            <a href="#"><h2>Address</h2></a>
-            <ul class="box">
-              <li><a href="#">63, Charter Oaks Drive</a></li>
-              <li><a href="#">Louisville</a></li>
-              <li><a href="#">Kentucky</a></li>
-              <li><a href="#">United State</a></li>
-             </ul>
-          </li>
-        </ul>
-        <div class="footer-bottom">
-          <p>All right reserverd by &copy;Kamal 2021</p>
-    
-    
-        </div>
-    
-    
-      </footer>
-    </section> 
-   
-</main>  
 </body>
 </html>
