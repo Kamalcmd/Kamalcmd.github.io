@@ -12254,7 +12254,7 @@
                         icon: dr.github
                     }, {
                         name: "LinkedIn",
-                        //link: "https://linkedin.com/in/KamalGhimire"
+                        //link: "www.linkedin.com/in/kamal-g-445492188"
                     }, {
                         name: "Facebook",
                         //link: "https://facebook.com/"
