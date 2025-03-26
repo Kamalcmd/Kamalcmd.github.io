@@ -12377,7 +12377,7 @@
                             },
                             children: (0, mt.jsxs)("i", {
                                 children: [(0, mt.jsx)("b", {
-                                    children: "Partha Chudal"
+                                    children: "Karan Shrestha"
                                 }), (0, mt.jsx)("br", {}), "Software Manager", (0, mt.jsx)("br", {}), "Amazon.com"]
                             })
                         }), (0, mt.jsxs)("p", {
