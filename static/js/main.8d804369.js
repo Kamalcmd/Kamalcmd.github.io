@@ -12266,7 +12266,7 @@
                         link: "mailto:m.kamalghimire436@gmail.com"
                     }, {
                         name: "CV",
-                        link: "https://drive.google.com/file/d/1D2SLFeHInSoEWo1pfg8Wfk0RZGOBaqRG/view?usp=drive_link", 
+                        //link: "https://drive.google.com/file/d/1D2SLFeHInSoEWo1pfg8Wfk0RZGOBaqRG/view?usp=drive_link", 
                         icon: (0, mt.jsx)(gr.Z, {})
                     }]
                 },
