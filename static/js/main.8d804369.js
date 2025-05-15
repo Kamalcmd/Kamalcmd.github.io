@@ -12378,7 +12378,7 @@
                             children: (0, mt.jsxs)("i", {
                                 children: [(0, mt.jsx)("b", {
                                     children: "Karan Shrestha"
-                                }), (0, mt.jsx)("br", {}), "Software Manager", (0, mt.jsx)("br", {}), "Amazon.com"]
+                                }), (0, mt.jsx)("br", {}), "Software Manager", (0, mt.jsx)("br", {}), "Scale AI"]
                             })
                         }), (0, mt.jsxs)("p", {
                             children: [(0, mt.jsx)("span", {
