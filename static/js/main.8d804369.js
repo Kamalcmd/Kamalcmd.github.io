@@ -12254,7 +12254,7 @@
                         icon: dr.github
                     }, {
                         name: "LinkedIn",
-                        //link: "https://www.linkedin.com/in/kamal-g-445492188/"
+                        link: "https://www.linkedin.com/in/kamal-g-445492188/"
                     }, {
                         name: "Facebook",
                         //link: "https://facebook.com/"
@@ -12263,10 +12263,10 @@
                         //link: "https://twitter.com/kamal"
                     }, {
                         name: "Email",
-                        link: "mailto:m.kamalghimire436@gmail.com"
+                        link: "mailto:m.kamal.ghimire@uky.edu"
                     }, {
                         name: "CV",
-                        //link: "https://drive.google.com/file/d/1D2SLFeHInSoEWo1pfg8Wfk0RZGOBaqRG/view?usp=drive_link", 
+                        link: "https://docs.google.com/document/d/1PyX6X9U9TSXAt6AoBixcbMroC8pIaJOF/edit?usp=sharing&ouid=109567141047600177315&rtpof=true&sd=true", 
                         icon: (0, mt.jsx)(gr.Z, {})
                     }]
                 },
