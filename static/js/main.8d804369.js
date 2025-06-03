@@ -12367,7 +12367,7 @@
                                     display: "block"
                                 },
                                 children: "\u201c"
-                            }), (0, mt.jsx)("br", {}), "Kamal did an excellent job for us on Amazon. He worked hard, writing very good and legible code and made an invaluable contribution to the project."]
+                            }), (0, mt.jsx)("br", {}), "Kamal did an excellent job for us on Scale AI. He worked hard, writing very good and legible code and made an invaluable contribution to the project."]
                         }), (0, mt.jsx)("p", {
                             children: "We like that he is very motivated, self-driven and is already an experienced and knowledgable coder."
                         }), (0, mt.jsx)("p", {
@@ -12397,7 +12397,7 @@
                             children: (0, mt.jsxs)("i", {
                                 children: [(0, mt.jsx)("b", {
                                     children: "Pooja Shiwakoti"
-                                }), (0, mt.jsx)("br", {}), "Amazon.com"]
+                                }), (0, mt.jsx)("br", {}), "Scale AI"]
                             })
                         }), (0, mt.jsxs)("p", {
                             children: [(0, mt.jsx)("span", {
