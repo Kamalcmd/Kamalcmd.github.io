@@ -12377,7 +12377,7 @@
                             },
                             children: (0, mt.jsxs)("i", {
                                 children: [(0, mt.jsx)("b", {
-                                    children: "Karan Shrestha"
+                                    children: "Pawan Shiwakoti"
                                 }), (0, mt.jsx)("br", {}), "Software Manager", (0, mt.jsx)("br", {}), "Scale AI"]
                             })
                         }), (0, mt.jsxs)("p", {
@@ -12396,7 +12396,7 @@
                             },
                             children: (0, mt.jsxs)("i", {
                                 children: [(0, mt.jsx)("b", {
-                                    children: "Pooja Shiwakoti"
+                                    children: "Karan Shrestha"
                                 }), (0, mt.jsx)("br", {}), "Scale AI"]
                             })
                         }), (0, mt.jsxs)("p", {
