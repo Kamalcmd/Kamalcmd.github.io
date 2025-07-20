@@ -12254,7 +12254,7 @@
                         icon: dr.github
                     }, {
                         name: "LinkedIn",
-                        link: "https://www.linkedin.com/in/kamal-g-445492188/"
+                        // link: "https://www.linkedin.com/in/kamal-g-445492188/"
                     }, {
                         name: "Facebook",
                         //link: "https://facebook.com/"
@@ -12266,7 +12266,7 @@
                         link: "mailto:m.kamal.ghimire@uky.edu"
                     }, {
                         name: "CV",
-                        link: "https://docs.google.com/document/d/1PyX6X9U9TSXAt6AoBixcbMroC8pIaJOF/edit?usp=sharing&ouid=109567141047600177315&rtpof=true&sd=true", 
+                        // link: "https://docs.google.com/document/d/1PyX6X9U9TSXAt6AoBixcbMroC8pIaJOF/edit?usp=sharing&ouid=109567141047600177315&rtpof=true&sd=true", 
                         icon: (0, mt.jsx)(gr.Z, {})
                     }]
                 },
@@ -12367,7 +12367,7 @@
                                     display: "block"
                                 },
                                 children: "\u201c"
-                            }), (0, mt.jsx)("br", {}), "Kamal did an excellent job for us on Scale AI. He worked hard, writing very good and legible code and made an invaluable contribution to the project."]
+                            }), (0, mt.jsx)("br", {}), "Kamal did an excellent job for us on Amazon. He worked hard, writing very good and legible code and made an invaluable contribution to the project."]
                         }), (0, mt.jsx)("p", {
                             children: "We like that he is very motivated, self-driven and is already an experienced and knowledgable coder."
                         }), (0, mt.jsx)("p", {
@@ -12377,8 +12377,8 @@
                             },
                             children: (0, mt.jsxs)("i", {
                                 children: [(0, mt.jsx)("b", {
-                                    children: "Pawan Shiwakoti"
-                                }), (0, mt.jsx)("br", {}), "Software Manager", (0, mt.jsx)("br", {}), "Scale AI"]
+                                    children: "Pooja Shiwakoti"
+                                }), (0, mt.jsx)("br", {}), "Software Manager", (0, mt.jsx)("br", {}), "Amazon"]
                             })
                         }), (0, mt.jsxs)("p", {
                             children: [(0, mt.jsx)("span", {
